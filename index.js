@@ -28,11 +28,3 @@ function render() {
 }
 
 btnEl.addEventListener("click", render)
-
-
-//need to (on button click) get value from input field, and store it in a variable.
-//then, use that variable (multiplied with conversion factors) to calculate
-//conversions. update .textcontent of the 3 boxes accordingly.
-
-//need to read the value in the input field, and if it is >= 0, rendering can occur.
-//if not, the default state of "-" will appear in the <p>
